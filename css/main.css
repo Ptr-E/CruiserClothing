@@ -53,7 +53,10 @@ table {
   ========================================
 */
 	header {
-		background-image: url("assets/img/Cruiser-bannerII..png");
+		background-image: url("../assets/img/usflag.jpg");
+		width: 960px;
+		height: 250px
+		repeat:none;
 	}
 
 
