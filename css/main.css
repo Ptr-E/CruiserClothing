@@ -55,8 +55,8 @@ table {
 	header {
 		background-image: url("../assets/img/usflag.jpg");
 		width: 960px;
-		height: 250px
-		repeat:none;
+		height: 250px;
+		padding-left:10px;
 	}
 
 
@@ -176,7 +176,6 @@ table {
 			border-radius: .5em;
 	}
 
-
 	.row-2-3 {
 		padding-top: 10px;
 	}
@@ -186,10 +185,13 @@ table {
 	}
 
 	.mission {
-		margin-top: 35px;
+		margin-top:-20px;
 		margin-left: 15px;
 		margin-right: 15px;
+	}
 
+	.container-grid {
+		padding-top: 20px;
 	}
 /*
   ========================================
@@ -309,7 +311,7 @@ table {
 	}
  
  	.footer-nav {
- 		padding-top: 50px;
+ 		padding-top: 20px;
  		float: right;
  		vertical-align: bottom;
  		margin-right: 15px;
@@ -321,6 +323,11 @@ table {
  		border-radius: .5em;
  	}
 
+ 	.footer-container {
+ 		background-image: url("../assets/img/harbor.jpg");
+ 		padding-bottom: 30px;
+ 		padding-right: 30px;
+ 	}
 /*
   ========================================
 	Links
