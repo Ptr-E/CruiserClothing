@@ -46,7 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*
+  ========================================
+	~~~~~~~Index~~~~~~~
+  ========================================
+*/
 /*
   ========================================
  Custom Styles
@@ -54,9 +58,10 @@ table {
 */
 	header {
 		background-image: url("../assets/img/usflag.jpg");
-		width: 960px;
+		width: 100%;
 		height: 250px;
 		padding-left:10px;
+		background-repeat: repeat-x;
 	}
 
 
@@ -64,6 +69,7 @@ table {
 		font-weight: 40;
 		background-image: url("http://a.espncdn.com/photo/2012/1024/as_surf_twiggy_2048.jpg");
 		background-color: #1f4969;
+		background-repeat:repeat-y;
 	}
 
 	.container-grid,
@@ -76,9 +82,8 @@ table {
 
 	h1 {
 		font-family: 'Kaushan Script', cursive;
-		background-image: ("assets/img/usflag.jpg");
-
 	}
+
 	.mission {
 		background: #fff;
 	}
@@ -99,7 +104,6 @@ table {
 */
 
 	.logo {
-		background-image: ("assets/img/usflag.jpg")
 		word-spacing: 10px;
 	}
 	.banner-nav {
@@ -115,7 +119,7 @@ table {
 
 /*
   ========================================
-  Grid
+  Grid - Home Page
   ========================================
 */
 
@@ -127,7 +131,7 @@ table {
 	.footer-container,
 	.continer-grid {
 	  margin: 0 auto;
-	  width: 960px;
+	  width: 100%;
 	}
 	.container {
 	  padding-bottom: 20px;
@@ -172,8 +176,8 @@ table {
 	*/
 
 	.scott {
-			float: right;
-			border-radius: .5em;
+		float: right;
+		border-radius: .5em;
 	}
 
 	.row-2-3 {
@@ -274,8 +278,7 @@ table {
 	.btn {
 		border-radius: 5px;
 		display: inline-block;
-		margin-right:0
-		;
+		margin-right:0;
 		background-color: grey;
 		float: right;
 
@@ -298,7 +301,6 @@ table {
   ========================================
 */
 	footer {
-		vertical-align: bottom;
 		float: right;
 		width: 960px;
 	}
@@ -334,14 +336,15 @@ table {
   ========================================
 */
 
-	a:hover {
-		color:#fcfff2;
-		text-decoration: underline;
-	}
 
 	a {
 		color:#585863; 
 		text-decoration: none;	
+	}
+
+	a:hover {
+		color:#fcfff2;
+		text-decoration: underline;
 	}
 
 	nav{
@@ -350,3 +353,46 @@ table {
 		top: -120px;
 		right: -15px;
 	}
+
+
+/*
+  ========================================
+	~~~~~Products Page~~~~~~
+  ========================================
+*/
+
+/*
+  ========================================
+	Shirt Grid
+  ========================================
+*/
+
+.col-2-3 {
+	width: 30.33%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
