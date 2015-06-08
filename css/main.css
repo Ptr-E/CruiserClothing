@@ -302,11 +302,11 @@ table {
 */
 	footer {
 		float: right;
-		width: 960px;
+		width: 100%;
 	}
 
 	.disclaimer {
-		max-width: 960px;
+		width: 100%;
 		padding-left: 15px;
 		padding-top: 20px;
 
@@ -338,7 +338,7 @@ table {
 
 
 	a {
-		color:#585863; 
+		color:#AA090D; 
 		text-decoration: none;	
 	}
 
@@ -347,7 +347,7 @@ table {
 		text-decoration: underline;
 	}
 
-	nav{
+	nav	{
 		font-size: 15px;
 		position: relative;
 		top: -120px;
@@ -357,7 +357,7 @@ table {
 
 /*
   ========================================
-	~~~~~Products Page~~~~~~
+	~~~~~Cruiser Gear~~~~~~
   ========================================
 */
 
@@ -371,15 +371,19 @@ table {
 	width: 30.33%;
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 5%;
-	padding-top: 5%;
+	padding-left: 3%;
+	padding-top: 40px;
 }
 
+.product {
+	border-radius: .5em;
+}
 
-
-
-
-
+/*
+  ========================================
+	~~~~~Cruiser Culture~~~~~~
+  ========================================
+*/
 
 
 
